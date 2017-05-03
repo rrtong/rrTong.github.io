@@ -1,0 +1,12 @@
+body { background-color: lightgray; }
+
+div { background-color: ivory; }
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: xx-large;
+}
+
+img {
+	max-width: 20%;
+}
