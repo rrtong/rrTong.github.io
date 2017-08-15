@@ -1,6 +1,8 @@
 body {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: xx-large;
-    text-align: center;
-    margin: 20%;
+  font-family: "Saira Condensed", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  margin: 20%;
 }
+
+#image {}
