@@ -2,7 +2,8 @@ body {
   font-family: "Saira Condensed", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: xx-large;
   text-align: center;
-  margin: 20%;
+  margin: auto;
+  max-width: 500px;
 }
 
 #image {}
