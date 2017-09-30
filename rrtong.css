@@ -6,6 +6,72 @@ body {
   height: 100%;
 }
 
+h5 {
+	text-decoration: underline;
+}
+
+.imageHi {
+	background-image: url("wave.jpg");
+	min-height: 1000px;
+	opacity: 0.8;
+	filter: grayscale(80%);
+
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageInterests {
+	background-image: url("cats.gif");
+	min-height: 300px;
+	opacity: 0.4;
+
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imageDreams {
+	background-image: url("sunset.jpg");
+	min-height: 300px;
+	opacity: 0.5;
+
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imageTimeline {
+	background-image: url("hike.jpg");
+	min-height: 300px;
+	opacity: 0.5;
+
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.twoTint {
+	background: #d8bfd8;
+}
+
+.threeTint {
+	background: #87ceeb;
+}
+
+.fourTint {
+	background: #8fbc8f;
+}
+
+
 #textHi {
 	text-align: center;
 	top: 30%;
@@ -33,24 +99,69 @@ body {
 	text-align: center;
 	width: 100%;
 	position: absolute;
-	font-size: 100px;
+	font-size: 85px;
 	color: #ffffff;
 	padding-bottom: 500px;
 }
 
 #divTwo {
 	color: #000000;
-	background-color:#F4D1FF;
+	background-color:#d8bfd8;
 	text-align: center;
 	padding:50px 80px;
 	text-align: justify;
 }
 
 #textTwo {
-	max-width: 50%;
-	margin-left: 25%;
+	max-width: 100%;
 	text-align: center;
 }
+
+#textDreams {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	font-size: 85px;
+	color: #ffffff;
+	padding-bottom: 500px;
+}
+
+
+#divThree {
+	color: #000000;
+	background-color:#87ceeb;
+	text-align: center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+#textThree {
+	max-width: 100%;
+	text-align: center;
+}
+
+#textTimeline {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	font-size: 85px;
+	color: #ffffff;
+	padding-bottom: 500px;
+}
+
+#divFour {
+	color: #000000;
+	background-color:#8fbc8f;
+	text-align: center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+#textFour {
+	max-width: 100%;
+	text-align: center;
+}
+
 
 #bgcolor {
 	background-color: #ffffff

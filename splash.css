@@ -1,4 +1,22 @@
 /* splash.css */
+    .usaFlag {
+        background-image: url("");
+        margin-right: 50px;
+    }
+
+    .hkFlag {
+        background-image: url("");
+    }
+
+    .mexFlag {
+        background-image: url("");
+        margin-right: 50px;
+    }
+
+    .cnFlag {
+        background-image: url("");
+    }
+
 
 html {
   height: 90vh;
@@ -7,7 +25,7 @@ html {
 body {
   text-align: center;
   height: 100%;
-  background: url("malibu.png") no-repeat center center fixed;
+  background: url("bg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -44,9 +62,42 @@ body {
   text-decoration: none;
   font-size: 70px;
   padding: 50px;
+  width: 400px;
+  height: 70px;
 }
 
 #credit_space {
   color: white;
   font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  #welcome {
+    font-size: 75px;
+  }
+
+  #enter {
+    font-size: 50px;
+    width: 200px;
+    height: 35px;
+  }
+
+
+  #hyperlink {
+    color: #ff9999; 
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .usaFlag {
+    margin-right: 0px;
+  }
+
+  .mexFlag {
+    margin-right: 0px;
+  }
+
 }
