@@ -1,20 +1,20 @@
 /* splash.css */
     .usaFlag {
-        background-image: url("");
+        background-image: url("usa80.png");
         margin-right: 50px;
     }
 
     .hkFlag {
-        background-image: url("");
+        background-image: url("hk80.png");
     }
 
     .mexFlag {
-        background-image: url("");
+        background-image: url("mex80.png");
         margin-right: 50px;
     }
 
     .cnFlag {
-        background-image: url("");
+        background-image: url("cn80.png");
     }
 
 
@@ -73,11 +73,12 @@ body {
 
 @media screen and (max-width: 480px) {
   #welcome {
-    font-size: 75px;
+    font-size: 50px;
+    margin-bottom: 50px;
   }
 
   #enter {
-    font-size: 50px;
+    font-size: 35px;
     width: 200px;
     height: 35px;
   }
@@ -96,8 +97,16 @@ body {
     margin-right: 0px;
   }
 
+  .hkFlag {
+    margin-top: 50px;
+  }
+
   .mexFlag {
     margin-right: 0px;
+  }
+
+  .cnFlag {
+    margin-top: 50px;
   }
 
 }
