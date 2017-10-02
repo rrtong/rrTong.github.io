@@ -166,3 +166,11 @@ h5 {
 #bgcolor {
 	background-color: #ffffff
 }
+
+@media screen and (max-width: 1060px) {
+	#textOne {
+		max-width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+}
