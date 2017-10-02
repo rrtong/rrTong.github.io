@@ -1,20 +1,22 @@
 /* splash.css */
     .usaFlag {
         background-image: url("usa80.png");
-        margin-right: 50px;
+        margin-top: 100px;
     }
 
     .hkFlag {
         background-image: url("hk80.png");
+        margin-top: 100px;
     }
 
     .mexFlag {
         background-image: url("mex80.png");
-        margin-right: 50px;
+        margin-top: 100px;
     }
 
     .cnFlag {
         background-image: url("cn80.png");
+        margin-top: 100px;
     }
 
 
@@ -51,9 +53,13 @@ body {
   color: #ff9999; 
   font-family: 'Raleway', sans-serif;
   text-align: center;
+
   margin: auto;
+
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #enter {
@@ -83,14 +89,11 @@ body {
     height: 35px;
   }
 
-
   #hyperlink {
-    color: #ff9999; 
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
     margin: auto;
-    display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: initial;
   }
 
   .usaFlag {
@@ -102,6 +105,7 @@ body {
   }
 
   .mexFlag {
+    margin-top: 50px;
     margin-right: 0px;
   }
 
