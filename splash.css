@@ -2,21 +2,29 @@
     .usaFlag {
         background-image: url("usa80.png");
         margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .hkFlag {
         background-image: url("hk80.png");
         margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .mexFlag {
         background-image: url("mex80.png");
         margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .cnFlag {
         background-image: url("cn80.png");
         margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
 
@@ -59,7 +67,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 #enter {
@@ -76,7 +84,7 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
 }
-
+/*
 @media screen and (max-width: 1060px) {
   #welcome {
     font-size: 50px;
@@ -114,3 +122,4 @@ body {
   }
 
 }
+*/
