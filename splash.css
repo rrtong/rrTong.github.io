@@ -70,6 +70,14 @@ body {
   justify-content: center;
 }
 
+#enter:hover {
+  background-color: white;
+  opacity: 0.5;
+  transition: opacity .7s ease-in-out;
+  -moz-transition: opacity .7s ease-in-out;
+  -webkit-transition: opacity .7s ease-in-out;
+}
+
 #enter {
   color: #000000;
   display: block;
@@ -84,6 +92,7 @@ body {
   color: white;
   font-family: 'Raleway', sans-serif;
 }
+
 /*
 @media screen and (max-width: 1060px) {
   #welcome {
@@ -122,4 +131,3 @@ body {
   }
 
 }
-*/
