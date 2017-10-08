@@ -27,6 +27,12 @@
         margin-right: 50px;
     }
 
+    .binFlag {
+        background-image: url("bin80.png");
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 
 html {
   height: 90vh;
