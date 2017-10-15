@@ -63,6 +63,14 @@ body {
   font-size: 100px;
 }
 
+#links {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: auto;
+  font-size: large;
+}
+
 #hyperlink {
   color: #ff9999; 
   font-family: 'Raleway', sans-serif;
