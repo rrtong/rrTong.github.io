@@ -70,6 +70,8 @@ body {
   margin: auto;
   margin-bottom: 100px;
   font-size: large;
+  position: absolute;
+  right: 5px;
 }
 
 #hyperlink {
