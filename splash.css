@@ -65,14 +65,14 @@ body {
 
 #links {
   color: #000000;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Saira Condensed", "Lucida Sans Unicode", "Lucida Grande", 'Raleway', sans-serif;
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
   font-size: large;
   position: absolute;
   right: 5px;
-  top: 5px;
+  top: 0px;
 }
 
 #hyperlink {
