@@ -25,7 +25,7 @@ h5 {
 
 .imageInterests {
 	background-image: url("cats.gif");
-	min-height: 400px;
+	min-height: 500px;
 	opacity: 0.4;
 
 	position: relative;
@@ -37,7 +37,7 @@ h5 {
 
 .imageDreams {
 	background-image: url("sunset.jpg");
-	min-height: 400px;
+	min-height: 500px;
 	opacity: 0.5;
 
 	position: relative;
@@ -49,7 +49,7 @@ h5 {
 
 .imageTimeline {
 	background-image: url("hike.jpg");
-	min-height: 400px;
+	min-height: 500px;
 	opacity: 0.5;
 
 	position: relative;
